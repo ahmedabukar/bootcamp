@@ -9,6 +9,7 @@ table {
 }
 
 th,
-td {
+td, 
+tbody {
   padding: 10px;
 }
