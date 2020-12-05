@@ -8,6 +8,7 @@ import{ BrowserRouter } from 'react-router-dom';
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import firebase from 'firebase/app'
+import 'firebase/database';
 import { createStore, combineReducers, compose } from 'redux'
 import {
   ReactReduxFirebaseProvider,
